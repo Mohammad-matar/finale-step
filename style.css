@@ -7,39 +7,41 @@ grid-template-rows => number of rows height
 */
 
 
-.container{
-        display: grid;
-        grid-template-areas: 'Champions Description Description' 'Champions Subscription OtherServices ';
-        grid-gap: 10px;
-        margin: 0 300px;
-        color: rgb(255, 255, 255);
-        background-color: "black";
-        
-    }
-        
+.container {
+    display: grid;
+    grid-template-areas: 'Champions Description Description' 'Champions Subscription OtherServices ';
+    grid-gap: 10px;
+    margin: 0 300px;
+    color: rgb(255, 255, 255);
+    background-color: "black";
 
-.d1{
+}
+
+
+.d1 {
     grid-area: Champions;
-  }
-  .d2{
+}
+
+.d2 {
     grid-area: Description;
-  }
-  
-  .d3{
+}
+
+.d3 {
     grid-area: Subscription;
-  }
-  .d4{
+}
+
+.d4 {
     grid-area: OtherServices;
-  }
+}
 
-.item{
+.item {
     padding: 10px;
-  
-  }
+
+}
 
 
 
-header{
+header {
     background-image: url("lol_image.jpg");
     height: 100px;
     background-position: center;
@@ -48,69 +50,78 @@ header{
 }
 
 
-nav{
-   
-    display:flex;
+nav {
+
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color:#5B1617;
-    
+    background-color: #5B1617;
+
 }
-nav a{
-color: rgb(250, 250, 250);
-text-decoration: none;
+
+nav a {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
 }
 
 
-footer{
+footer {
     background-color: #5B1617;
     padding: 10px;
     color: white;
     text-align: center;
-    padding:50px;
+    padding: 50px;
     width: 960x;
-    
-}
-.radio{
-    font-size: 24px;
-    font-weight: 500;
-     text-transform: inline-block;
-     vertical-align: middle;
-     color: #fff;
+
 }
 
-.parent div{
+.radio {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.parent div {
     border: solid 1px #000;
 }
-.style{
-margin: 10px;    
+
+.style {
+    margin: 10px;
 }
-.style1{
+
+.style1 {
 
     margin: 10px 10px 10px 10px;
     padding: 15px 5px 20px 0px;
-    
+
 }
-.style2{
+
+.style2 {
     margin-left: 25px;
 }
-.p{
+
+.p {
     margin: 0px 0px 0px 50px;
-    
+
 }
-button{
+
+button {
     display: block;
     margin: 10px auto;
     background-color: #5B1617;
     border: none;
 }
-button a{
+
+button a {
     color: White;
     font-style: bold;
     font-size: medium;
-	text-decoration:none;
+    text-decoration: none;
 }
-.menuimages{
+
+.menuimages {
     width: 32%;
     height: 200px;
 
@@ -120,33 +131,60 @@ button a{
 body {
     background-color: black;
 }
-hr{
-    Display:none;
+
+hr {
+    Display: none;
 }
-.a{
+
+.a {
     font-size: 100px;
     background-color: rgba(255, 188, 4, 0.103);
-}			
-.linkText:hover > a{
-
-    color:#9630C5;
-    
 }
+
+.linkText:hover>a {
+
+    color: #9630C5;
+
+}
+
 .linkText:hover {
     background-color: black;
 }
 
-.linkText{
+.linkText {
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
-    
-    
+
+
 }
-.ffs{
+
+.ffs {
     text-align: center;
 }
 
 
+
+.btn_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input_container input {
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
